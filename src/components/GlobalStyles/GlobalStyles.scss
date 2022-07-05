@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 :root {
+    --backgroupnd-coler: #100f0e;
+    --color: #d2d0ce;
+    --icon-color: #100f0e;
+    --search-color: #302f2d;
 }
 
 * {
@@ -19,4 +23,44 @@ body {
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+    background-color: var(--backgroupnd-coler);
+    color: var(--color);
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 75em) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+ul li {
+    list-style: none;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+button,
+input,
+[tabindex] {
+    border: none;
+    outline: none;
 }

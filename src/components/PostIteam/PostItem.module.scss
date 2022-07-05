@@ -1,0 +1,32 @@
+.wrapper {
+    padding: 4px 12px;
+    display: flex;
+}
+
+.thumbnail {
+    border-radius: 6px;
+    height: 60px;
+    width: 60px;
+}
+
+.post-content {
+    padding-left: 5px;
+}
+
+.post-title {
+    display: block;
+    text-overflow: ellipsis;
+    width: 240px;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-size: 1.5rem;
+}
+
+.post-date {
+    font-size: 1.2rem;
+}
+
+.date-icon {
+}
